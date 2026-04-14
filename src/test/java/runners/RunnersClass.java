@@ -11,9 +11,9 @@ import org.junit.runner.RunWith;
      features = "src/test/resources/features/",
 
      glue = "steps",
-     dryRun = true,
-     //dryRun = false,
-     tags = "@smoke1"
+     //dryRun = true,
+     dryRun = false,
+     tags = "@smoke2"
 )
 
 public class RunnersClass {
